@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    margin: 0;
+    color: white;
+}
+
+.container{
+    max-width: 315px;
+    margin:50px auto;
+    background-color: #202026;
+    border-radius: 5px;
+}
+.wrap{
+    margin: 0 auto;
+    width:215px;
+}
+/* header */
+header{
+    margin-bottom: -4px;
+}
+
+/* main */
+main{
+    width: 100%;
+    padding:20px  24px 30px;
+    background-color: #16161C;
+}
+
+.main--info{
+    text-align: center;
+}
+.main--info_name{
+    font-weight: 600;
+}
+.main--info_job{
+    font-size: 14px;
+    color: #625957;
+    transform: scale(0.6);
+}
+.main--info_website {
+    transform: scale(0.6);
+}
+.main--info_website > a > span{
+    color: #8D8B92;
+    font-size: 12px;
+}
+
+.main--email{
+    text-align: center;
+    margin-top: 15px;
+}
+.main--email_btn{
+    background-color: #F9F9F9;
+    width: 166px;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.main--email_btn_title{
+    color: #121315;
+    font-size: 12px;
+    font-weight: 600;
+}
+.main--email_btn_icon{
+    margin-right: 5px;
+}
+.main--intro{
+   
+}
+.main--intro_p{
+    margin-top: 25px;
+}
+.main--intro_content{
+    font-size: 10px;
+    color: #5E5F64;
+}
+
+
+/* Footer */
+footer{
+    width: 100%;
+    padding: 8px 50px 5px;
+    background-color: #121013;   
+}
+.footer--links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer--links > li{
+    margin-right: 15px;
+}
+.footer--links > li:last-of-type{
+    margin-right: 0;
+}
+.footer--links > li > img{
+    width: 250px;
+}
